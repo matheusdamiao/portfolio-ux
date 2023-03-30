@@ -4,11 +4,14 @@ import type { HeadFC, PageProps } from "gatsby";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <div className="flex justify-center flex-col items-center w-full h-screen bg-slate-700 font-source">
-        <p className="text-5xl font-bold  text-gray-300">
+      <div className="flex justify-center flex-col items-center w-full h-screen bg-slate-700 font-source ">
+        <p className="text-5xl px-3 py-3 md:px-0 md:py-0 font-bold text-gray-300 text-center">
           Hello, I'm Luana Antunes
         </p>
-        <small className="text-gray-400 text-3xl mt-1 "> UX Designer </small>
+        <small className="text-gray-400 text-3xl px-3 py-3 md:px-0 md:py-3">
+          {" "}
+          UX Designer{" "}
+        </small>
 
         <div className="flex justify-center gap-5 mt-8 text-gray-400 ">
           <a
